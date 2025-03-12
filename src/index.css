@@ -1,0 +1,42 @@
+body{
+  background-color: darkgrey;
+}
+
+
+
+#display{
+  display: grid;
+ 
+grid-template-columns: repeat(3, 1fr); 
+gap: 10px; 
+align-items: center;
+justify-items: center;
+width: max-content;
+margin: auto;
+border: 2px solid orange;
+height: 200px;
+width:500px; 
+margin-top: 150px;
+}
+
+#display button{
+  width: 100px;
+  height: 50px;
+
+ cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: darkgray;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+
+}
+
+#display button:hover{
+  background-color: orange;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.pressButon{
+  background-color: orange;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+}
